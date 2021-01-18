@@ -3,10 +3,16 @@ class Garden():
     def __init__(self):
         self.vegetables = []
 
-    def plant(self, vegetable):
+    def add(self, vegetable):
         self.vegetables.append(vegetable)
 
-    def seeds(self):
+    def seed(self):
         seedNumber = 0
         for vegetable in self.vegetables:
-            seedNumber += vegetable.getSeedNumber
+            seedNumber += vegetable.getSeedNumber()
+        print(seedNumber)
+        return seedNumber
+
+    def addSeeds(self):
+        pass
+

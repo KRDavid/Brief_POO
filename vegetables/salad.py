@@ -1,10 +1,10 @@
-from vegetable import Vegetable
+from vegetables.vegetable import Vegetable
 
 class Salad(Vegetable):
-    def __init__():
+    def __init__(self):
         Salad.seedNumber = 0
 
-    def growSeedNumber(self, number):
+    def grow(self, number):
         Salad.seedNumber += number
 
     def getSeedNumber(self):

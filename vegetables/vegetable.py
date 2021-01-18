@@ -6,7 +6,7 @@ class Vegetable(abc.ABC):
         pass
 
     @abc.abstractmethod
-    def growSeedNumber(self):
+    def grow(self):
         pass
 
     @abc.abstractmethod
