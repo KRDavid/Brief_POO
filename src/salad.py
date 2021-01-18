@@ -1,1 +1,0 @@
-from vegetable import Vegetable
