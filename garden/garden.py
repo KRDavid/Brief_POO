@@ -10,9 +10,7 @@ class Garden():
         seedNumber = 0
         for vegetable in self.vegetables:
             seedNumber += vegetable.getSeedNumber()
-        print(seedNumber)
         return seedNumber
 
-    def addSeeds(self):
-        pass
+   
 
