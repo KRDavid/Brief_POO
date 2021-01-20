@@ -9,3 +9,6 @@ class Onion(Vegetable):
 
     def getSeedNumber(self):
         return self.seedNumber
+    
+    def __str__(self):
+        return "onion"
