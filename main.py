@@ -2,6 +2,17 @@ from vegetables import tomato, salad, onion
 from garden import garden, gardener
 
 
+
+
+g = garden.Garden() 
+g.add(tomato.Tomato()) 
+s = salad.Salad() 
+s.grow(8) 
+g.add(s) 
+print(g.seed()) # display 8
+
+###############################################################################
+
 gardenguy = gardener.Gardener()
 
 gardenguy.buildGarden()
@@ -21,9 +32,4 @@ gardenguy.grow(2, 2, 5)
 
 gardenguy.inspection()
 
-# g = garden.Garden() 
-# g.add(tomato.Tomato()) 
-# s = salad.Salad() 
-# s.grow(8) 
-# g.add(s) 
-# print(g.seed()) # display 8
+
